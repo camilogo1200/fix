@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grupo_71_"
+    tools:context=".Registrar">
+
+    <Spinner
+        android:id="@+id/sp_Torre"
+        android:layout_width="151dp"
+        android:layout_height="42dp"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:dropDownWidth="wrap_content"
+        android:spinnerMode="dropdown"
+        android:text="Torre"
+        android:textAlignment="textStart"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.334"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <Spinner
+        android:id="@+id/sp_Apt"
+        android:layout_width="151dp"
+        android:layout_height="42dp"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:dropDownWidth="wrap_content"
+        android:spinnerMode="dropdown"
+        android:text="Apt"
+        android:textAlignment="textStart"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/editText_Identificacion"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#354D5E"
+        android:hint="Nro. Identificación"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/editText_correo"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#354D5E"
+        android:hint="Correo"
+        android:inputType="textEmailSubject"
+        android:shadowColor="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/textInputApellido"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#354D5E"
+        android:hint="Apellido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/editText_Nombre"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#354D5E"
+        android:hint="Nombre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/editText_Telefono"
+        android:layout_width="322dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#354D5E"
+        android:hint="Teléfono"
+        android:inputType="phone"
+        android:phoneNumber="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_waitbox_png_2" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/sp_TipoIdentificacion"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:dropDownWidth="wrap_content"
+        android:spinnerMode="dropdown"
+        android:text="Tipo de identificación"
+        android:textAlignment="textStart"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="344dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#3690CF"
+        android:text="REGISTRAR"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
+</android.support.constraint.ConstraintLayout>

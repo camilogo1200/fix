@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.waitbox.waitbox">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WaitBox">
+        <activity android:name=".Activacion"></activity>
+        <activity android:name=".ActivarGPS" />
+        <activity android:name=".PQR" />
+        <activity android:name=".UbicacionPaquete" />
+        <activity android:name=".ValidacionGPS" />
+        <activity android:name=".ConfirmacionGPS" />
+        <activity android:name=".CambiarContrasenaIndex" />
+        <activity android:name=".RegistrarEmpleado" />
+        <activity android:name=".EditarPerfilCambiarContrasena" />
+        <activity android:name=".EditarPerfil" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".PaginaPrincipal" />
+        <activity android:name=".CodigoIngreso" />
+        <activity android:name=".Registrar" />
+        <activity android:name=".OlvidarContrasena" />
+        <activity android:name=".IniciarSesion" />
+        <activity android:name=".Index">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

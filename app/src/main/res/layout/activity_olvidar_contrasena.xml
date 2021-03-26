@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cmpov"
+    tools:context=".OlvidarContrasena">
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="343dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#3690CF"
+        android:text="CONTINUAR"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/editText_correo_olvidar"
+        android:layout_width="315dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginBottom="306dp"
+        android:backgroundTint="#354D5E"
+        android:hint="Correo"
+        android:inputType="textEmailSubject"
+        android:shadowColor="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857" />
+</android.support.constraint.ConstraintLayout>
